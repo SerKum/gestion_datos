@@ -28,3 +28,7 @@ with open('contactos.csv', 'r') as csv_file:
 with open('contactos.xml', 'w') as f:
     xml_str = ET.tostring(root)
     f.write(xml_str.decode("utf8"))
+
+
+
+
